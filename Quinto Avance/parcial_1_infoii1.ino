@@ -118,7 +118,7 @@ void letters(int p){
       leds(X[0], X[1], X[2], X[3], X[4], X[5], X[6], X[7]);
     else if (p==25)
       leds(Y[0], Y[1], Y[2], Y[3], Y[4], Y[5], Y[6], Y[7]);
-    else (p==26)
+    else if(p==26)
       leds(Z[0], Z[1], Z[2], Z[3], Z[4], Z[5], Z[6], Z[7]);
  }
 //Funcion que le permite al usario elegir o crear un patron
